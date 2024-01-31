@@ -6,6 +6,7 @@ content {
 nav a {
     text-align: center;
     color: #a44a3f;
+    text-decoration: none;
 }
 nav a:hover {
     background-color: #a44a3f ;
@@ -31,9 +32,27 @@ main section {
     background-color: #a44a3f ;
     color: #adf7b6;
 }
+.msg h2 {
+    color: #a44a3f;
+}
+.msg p {
+    color: #a44a3f;
+}
 footer {
     background-color: #353831 ;
     color: #adf7b6;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #a44a3f;
+}
+footer a:hover {
+    color: #a44a3f;
 }
 .book:hover, .join:hover {
     background-color: #9d9171 ;
@@ -50,4 +69,19 @@ header {
 body {
     background-color: #a44a3f ;
     color: #adf7b6;
+}
+.home-title {
+    color: #adf7b6;
+}
+h4 {
+    color: #a44a3f;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
