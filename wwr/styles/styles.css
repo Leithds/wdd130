@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Raleway:wght@300&display=swap');
 content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +8,7 @@ nav a {
     text-align: center;
     color: #e4d9d7;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #a44a3f ;
@@ -24,6 +26,9 @@ main section {
     text-align: center;
     color:#a44a3f;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     color: #a01300;
@@ -32,16 +37,23 @@ main section {
 .msg {
     background-color: #a44a3f ;
     color: #adf7b6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #353831;
+    font-family: 'Raleway', sans-serif;
 }
 .msg p {
     color: #353831;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #353831 ;
     color: #adf7b6;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -55,6 +67,9 @@ footer a {
 footer a:hover {
     color: #a44a3f;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .book:hover, .join:hover {
     background-color: #a44a3f;
     color: #9d9171;
@@ -62,6 +77,10 @@ footer a:hover {
 .book, .join {
     background-color: #a44a3f ;
     color: #adf7b6;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 header {
     background-color: #a44a3f ;
@@ -70,19 +89,39 @@ header {
 body {
     background-color: #ffffff ;
     color: #adf7b6;
+    font-family: 'Bevan', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 .home-title {
     color: #adf7b6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #a44a3f;
+}
+h2 {
+    margin: 0;
 }
 .logo {
     width: 80px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
 }
