@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Raleway:wght@300&display=swap');
+content {
+    max-width: 1600px;
+    margin: 0 auto;
+    color: #a44a3f;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: #e4d9d7;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #a44a3f ;
+    color: #adf7b6;
+}
+.button-box {
+    text-align: center;
+    color: #a44a3f;
+}
+main section {
+    text-align: left;
+    color:#353831;
+}
+main section img {
+    box-sizing: border-box;
+}
+#background {
+    height: 725px;
+    color: #a01300;
+    background-color: #353831;
+    grid-column: 1 / 11;
+    grid-row: 4 / 6;
+}
+.msg {
+    background-color: #a44a3f ;
+    color: #adf7b6;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6 / 5;
+    grid-row: 6 / 1;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h2 {
+    color: #353831;
+    font-family: 'Raleway', sans-serif;
+}
+.msg p {
+    color: #353831;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer {
+    background-color: #353831 ;
+    color: #adf7b6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer a {
+    color: #a44a3f;
+}
+footer a:hover {
+    color: #a44a3f;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.book:hover, .join:hover {
+    background-color: #a44a3f;
+    color: #9d9171;
+}
+.book, .join {
+    background-color: #a44a3f ;
+    color: #adf7b6;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #a44a3f ;
+    color: #adf7b6;
+}
+body {
+    background-color: #ffffff ;
+    color: #adf7b6;
+    font-family: 'Bevan', serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title {
+    color: #adf7b6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4 {
+    color: #a44a3f;
+}
+h2 {
+    margin: 0;
+    color: #a44a3f;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+}
+.mountains {
+    grid-column: 2 / 6;
+    grid-row: 5 / 3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.Salmon-River {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.Grey-Canyon {
+    grid-column: 5 / 3;
+    grid-row: 2 / 2;
+}
+
+.Grand-Canyon {
+    grid-column: 8 / 3;
+    grid-row: 2 / 2;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+@media screen and (max-width: 900px) {
+    .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .Grand-Canyon, .Grey-Canyon, .Salmon-River{ 
+        margin: 50px auto;
+        width: 60%;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
