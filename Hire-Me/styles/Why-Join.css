@@ -41,6 +41,7 @@ body {
     color: var(--paragraph-color-on-color);
     min-height: 100vh;
     position: relative;
+    padding-bottom: 50px;
 }
 
 img {
