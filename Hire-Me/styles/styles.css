@@ -271,4 +271,41 @@ nav a:hover {
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 40px;
+}
